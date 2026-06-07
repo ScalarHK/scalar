@@ -8,14 +8,14 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Scalar — Find your bottlenecks. Automate them away.",
+  title: "Founder Systems Audit | Find Where Your Business Is Leaking Time, Leads & Sales",
   description:
-    "Scalar diagnoses the hidden bottlenecks in your business and builds custom AI automations to clear them — so you can scale without burning out.",
+    "Complete a free founder systems audit covering sales pipeline, lead capture, follow-up, operations, AI workflows, reporting, BD, and investor-readiness. Get a clear score and action plan.",
   metadataBase: new URL("https://scalarhk.com"),
   openGraph: {
-    title: "Scalar — Find your bottlenecks. Automate them away.",
+    title: "Free Founder Systems Audit — Scalar",
     description:
-      "AI-powered bottleneck diagnosis and automation for SMEs and solopreneurs. Join the waitlist.",
+      "See where your business is leaking time, leads, and sales — then get a practical score and recommendations.",
     type: "website",
     url: "https://scalarhk.com",
   },
