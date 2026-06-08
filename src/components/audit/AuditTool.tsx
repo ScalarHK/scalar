@@ -290,7 +290,7 @@ export default function AuditTool() {
   // SSR placeholder
   if (!hydrated) {
     return (
-      <div className="min-h-[400px] flex items-center justify-center">
+      <div id="audit-start" className="scroll-mt-24 min-h-[400px] flex items-center justify-center">
         <div className="w-8 h-8 rounded-full border-2 border-cyan-500 border-t-transparent animate-spin" />
       </div>
     );
@@ -300,7 +300,7 @@ export default function AuditTool() {
   const answered = totalAnswered(state.answers);
 
   return (
-    <div id="audit-start" className="rounded-3xl border border-white/10 bg-[#08090f] p-6 sm:p-8 lg:p-10">
+    <div id="audit-start" className="scroll-mt-24 rounded-3xl border border-white/10 bg-[#08090f] p-6 sm:p-8 lg:p-10">
       {/* Header */}
       {state.phase !== "results" && (
         <div className="flex items-center justify-between mb-8 flex-wrap gap-4">
